@@ -3,10 +3,11 @@ class Translation(object):
 I'm Url Uploader Bot 🚀
 <b>Permanent Thumbnail Support💯.</b>
 <i>Send me a direct link and I will upload it to telegram as a file/video.</i>
-Click /help for more details...."""
+Click /help for more details
+join @tgnvsbot more rename And upload bot"""
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
-Example: <a href='https://telegra.ph/file/56ee1462c2c19528f75b6.jpg'>See This!</a> 👇"""
+Example: <a href='https://graph.org/file/8813258a8d64d62f11398.png'>See This!</a> 👇"""
 
     INCORRECT_REQUEST = """Please make sure you submit your request correctly."""
     WAIT_PROCESS_FINISH = """Please wait for your current file to finish downloading before sending more links!
@@ -16,12 +17,12 @@ You can now send a new URL."""
     NO_PROCESS_FOUND = """🤷‍♂️ No pending uploads were found. You can upload files by sending a link now!
 /help for more details."""
     FORMAT_SELECTION = "👇𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇"
-    SET_CUSTOM_USERNAME_PASSWORD = """\n👮‍♂ Powered By :</b> @MOVIES_ZILAA"""
-    DOWNLOAD_START = "📥 DOWNLOADING..."
-    UPLOAD_START = "📤 UPLOADING..."
+    SET_CUSTOM_USERNAME_PASSWORD = """\n👮‍♂ Powered By :</b> @tgnvs"""
+    DOWNLOAD_START = "🔻 DOWNLOADING STARTED 🔻"
+    UPLOAD_START = " 🔺UPLOADING STARTED 🔺"
     RCHD_TG_API_LIMIT = "<b>Downloaded in:</b> {} seconds.\n<b>Detected file size:</b> {}.\n\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations 😕."
     #AFTER_SUCCESSFUL_UPLOAD_MSG = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@sources_cods"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@tgnvs"
     SAVED_CUSTOM_THUMB_NAIL = "Save Your Thumbnail ✅."
     DEL_ETED_CUSTOM_THUMB_NAIL = " Delete Your Thumbnail ✅."
     CUSTOM_CAPTION_UL_FILE = "{}"
@@ -36,26 +37,25 @@ You can now send a new URL."""
 5.  Use /caption to Set caption as Reply to Media
 6. Use this /about and /viewthumbnail
 """
-    ABOUT_TEXT = """<b>🔘 My Name :</b> URL Uploader Bot V2 🚀
-<b>🔘 Channel :</b> <a href="https://t.me/sources_cods">AM BOT</a>
-<b>🔘 Source :</b> <a href="https://github.com/8769ANURAG/UPLOADER-BOT-V2">Click Here</a>
-<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.7</a>
-<b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
-<b>🔘 Creater :</b> @MOVIES_ZILAA"""
+    ABOUT_TEXT = """<b>🤖 My Name : File Upload Bot</b>
+<b>🕹 Channel :</b> <a href="https://t.me/tgnvs">TGNVS</a>
+<b>✏️ Language :</b> <a href="https://www.python.org/">Python 3.10.7</a>
+<b>📊 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
+<b>😎 Creater :</b> @tgnvsbot"""
 
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Send your thumbnail pic to generate custom thumbail."
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     CANCEL_STR = "❌ Cancelled ❌"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds."
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file."
 
     INFO_TEXT = """
-🌸 First Name : <b>{}</b>
-🌸 Second Name : <b>{}</b>
-🌸 Username : <b>@{}</b>
-🌸 Id : <code>{}</code>
-🌸 Profile : <b>{}</b>
-🌸 Dc : <b>{}</b>
-🌸 Language : <b>{}</b>
-🌸 Status : <b>{}</b>
+🤍 First Name : <b>{}</b>
+🧡 Second Name : <b>{}</b>
+💛 Username : <b>@{}</b>
+💚 Id : <code>{}</code>
+💙 Profile : <b>{}</b>
+💜 Dc : <b>{}</b>
+🤎 Language : <b>{}</b>
+🖤 Status : <b>{}</b>
 """
