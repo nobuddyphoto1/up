@@ -72,7 +72,7 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/sources_cods'),
+          InlineKeyboardButton('🧿 Bot list Channal 🧿', url='https://t.me/tgnvs'),
           ]
         ]
        ),
@@ -97,7 +97,7 @@ async def about(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/sources_cods'),
+          InlineKeyboardButton('⭕ Bot list Channal ⭕', url='https://t.me/tgnvs'),
           ]
         ]
        ),
@@ -114,17 +114,14 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 CHANNEL', url='https://t.me/sources_cods'),
-      ],
-      [
-          InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/Movies_zilaa'),
-          InlineKeyboardButton('🌝 SOURCE', url='https://github.com/8769ANURAG/UPLOADER-BOT-V2'),
-          ]
-        ]
+          InlineKeyboardButton('🔆 Bot list Channal 🔆', url='https://t.me/tgnvs'),
+      ]
+      ]
       ),
       reply_to_message_id=update.message_id
     )
-
+    
+    
 @Clinton.on_message(filters.private & filters.command(["info"]))
 async def add_info_help(bot, update):
     await bot.send_message(
